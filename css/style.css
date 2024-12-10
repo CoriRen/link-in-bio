@@ -74,6 +74,10 @@ a {
     text-decoration: none;
 
 }
+a:active {
+    color:#3A3B3C
+
+}
 a.btn{
     display: block;
     width: 100%;
@@ -165,11 +169,17 @@ Modules
 /*buttons*/
 .btnLi{
     width: 80%;
-    border: 1px solid darkgray;
+    border: 1px solid #8f94fbce;
     border-radius: 5px;
     margin: 1% 0;
     padding: 0 2% 0 0;
-    box-shadow: 10px 10px 10px #b6b4b486;
+    box-shadow: 10px 10px 10px #8f94fb54;
+    background: white;
+    transition: font-size 0.4s ease-in-out
+}
+.btnLi:hover{
+   font-size: 1.1rem; 
+   
 }
 .btnLi:first-of-type{
     background: linear-gradient(to right,#9f78ff,#8f94fb);
@@ -184,8 +194,8 @@ Modules
 }
 
 /*backgrounds*/
-.offWhite{
-    background: #f7f7f7;
+.lightPurple{
+    background: #8f94fb38;
 }
 .rounded{
     border-radius: 15px;
