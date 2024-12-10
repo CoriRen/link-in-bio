@@ -46,7 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/*****************************************************************
+BOX Sizing
+******************************************************************/
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 /*****************************************************************
 GENERAL STYLES
 ******************************************************************/
@@ -129,7 +134,7 @@ Layout
 .innerContainer{
     margin: 0 auto;
     width: 800px;
-    padding: 1% 0;
+    padding: 1% 1%;
 }
 footer{
     margin: 0 auto;
@@ -204,7 +209,7 @@ Modules
 }
 .headerBackground{
     background: linear-gradient(to right,#9f78ff,#8f94fb);
-    width: 100vw;
+    width: 100%;
     height: 150px;
     position: absolute;
     z-index: -10;
