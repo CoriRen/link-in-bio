@@ -204,7 +204,7 @@ Modules
 }
 .headerBackground{
     background: linear-gradient(to right,#9f78ff,#8f94fb);
-    width: 100%;
+    width: 100vw;
     height: 150px;
     position: absolute;
     z-index: -10;
