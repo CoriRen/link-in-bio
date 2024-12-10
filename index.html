@@ -7,37 +7,49 @@
     <title>Link in Bio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
 
     <script src="https://kit.fontawesome.com/2b7fa2d572.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div class="headerContainer flex">
-            <img src="css/assets/CGoodSmith-headshot-2021-cropped.jpg" class="profilePic">
+        <div class="headerBackground"></div>
+        <div class="innerContainer flex row">
+            <img src="css/assets/CGoodSmith-headshot-2021-cropped.jpg" class="profile">
         </div>
     </header>
-    <section class="introText">
-        <h1>Corinne GoodSmith</h1>
-        <p>Digital Marketing Consultant | Full-Stack Web Developer | Avid Gardener</p>
+    <section id="introText">
+        <div class="innerContainer">
+            <h1>Corinne GoodSmith</h1>
+            <h2>Digital Marketing Consultant | Full-Stack Web Developer | Avid Gardener</h2>
+            <p>Hi 👋🏽. I'm Corinne, a Digital Marketer and Web Developer who helps businesses like yours increase brand awareness and drive growth.</p>
+        </div>
     </section>
-    <section class="socialIcons flex">
-        <ul>
-            <li><a href="https://corinnegoodsmith.netlify.app/" class="btn"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/corinnegoodsmith" class="btn">LinkedIn</a></li>
-            <li><a href="https://github.com/CoriRen" class="btn">GitHub</a></li>
-            <li><a href="mailto:corinnegoodsmith@gmail.com" class="btn">Email me!</a></li>
-        </ul>
+    <section id="socialIcons">
+        <div class="innerContainer flex center">
+            <ul class="flex socialRow center">
+                <li><a href="https://twitter.com/Mord_Pr0xy" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/corinnegoodsmith" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/CoriRen" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="mailto:corinnegoodsmith@gmail.com" target="_blank"><i class="fa-brands fa-discord"></i></a></li>
+            </ul>
+        </div>
     </section>
-    <section class="links">
-        <ul>
-            <li><a href="https://corinnegoodsmith.netlify.app/" class="btn">My porfolio</a></li>
-            <li><a href="https://www.linkedin.com/in/corinnegoodsmith" class="btn">LinkedIn</a></li>
-            <li><a href="https://github.com/CoriRen" class="btn">GitHub</a></li>
-            <li><a href="mailto:corinnegoodsmith@gmail.com" class="btn">Email me!</a></li>
-        </ul>
-
+    <section id="links">
+        <div class="innerContainer offWhite rounded">
+            <ul class="flex row">
+                <li class="btnLi"><a href="https://corinnegoodsmith.netlify.app/" target="_blank" class="btn">View My Porfolio</a></li>
+                <li class="btnLi"><a href="https://dev.to/coriren" target="_blank" class="btn">Follow me on Dev.to</a></li>
+                <li class="btnLi"><a href="https://www.feedingamerica.org/" target="_blank" class="btn">Support Feeding America</a></li>
+                <li class="btnLi"><a href="https://corinnegoodsmith.netlify.app/#get-in-touch" target="_blank" class="btn">Get in Touch</a></li>
+            </ul>
+        </div>  
     </section>
+    <footer>
+        <div class="innerContainer">
+            <p class="finePrint">Made with <i class="fa-solid fa-heart"></i> by CGoodSmith 2024</p>
+        </div>
+    </footer>
 </body>
