@@ -1,10 +1,6 @@
 # My Link in Bio Page
 A simple link in bio page for social media.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
-
 ## How It's Made:
 
 **Tech used:** HTML & CSS (with Flexbox)
