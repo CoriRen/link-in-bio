@@ -1,3 +1,21 @@
-# static-html-template
+# My Link in Bio Page
+A simple link in bio page for social media.
 
-Use this template to create static HTML websites and deploy them on Render.
+**Link to project:** http://recruiters-love-seeing-live-demos.com/
+
+![alt tag](http://placecorgi.com/1200/650)
+
+## How It's Made:
+
+**Tech used:** HTML & CSS (with Flexbox)
+
+This is a html page written with semantic elements for browser readability and user accessibility.
+
+## Optimizations
+Used flexbox layout for mobile responsiveness.
+
+
+
+
+
+
