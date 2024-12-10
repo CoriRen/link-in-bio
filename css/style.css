@@ -80,15 +80,14 @@ a.btn{
     text-align: center;
     line-height: 50px;
 }
-.finePrint{
-    font: .5rem;
+p.finePrint{
+    font-size: .8rem;
 }
+
+/*icons*/
 .fa-brands{
     font-size: 1.5rem;
     color: #3A3B3C;
-}
-.fa-twitter{
-    color:#1c96e9;
 }
 .fa-linkedin-in{
     color:#0274b3;
@@ -102,6 +101,20 @@ a.btn{
 .fa-heart{
     color: red;
 }
+.fa-youtube{
+    color: #fe0231
+}
+.fa-instagram{
+    background: linear-gradient(#6e15c7, #e22b35, #f0c147);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.fa-arrow-right{
+    transform: rotate(-40deg);
+    font-size: 1.5rem;
+    
+}
 
 
 /*****************************************************************
@@ -114,7 +127,14 @@ Layout
     width: 800px;
     padding: 1% 0;
 }
+footer{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
+/*Flex*/
 .flex {
     display: flex;
 }
@@ -125,12 +145,45 @@ Layout
     flex-direction: column;
     align-items: center;
 }
-footer{
-    margin: 0 auto;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+
+/*****************************************************************
+Modules
+******************************************************************/
+
+/*profile pic*/
+.profile{
+    width: 200px;
+    border: 6px solid white;
+    border-radius: 50%;
 }
+
+/*social Row*/
+.socialRow > li{
+    padding: 0 15%;
+}
+
+/*buttons*/
+.btnLi{
+    width: 80%;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin: 1% 0;
+    padding: 0 2% 0 0;
+    box-shadow: 10px 10px 10px #b6b4b486;
+}
+.btnLi:first-of-type{
+    background: linear-gradient(to right,#9f78ff,#8f94fb);
+    color: white;
+    display: flex;
+    align-items: baseline;
+    font-weight: 700;
+}
+.btnLi:first-of-type a{
+    color: white;
+    margin-right: -2%;
+}
+
+/*backgrounds*/
 .offWhite{
     background: #f7f7f7;
 }
@@ -138,34 +191,6 @@ footer{
     border-radius: 15px;
     padding: 2% 0;
     width: 700px;
-}
-/*****************************************************************
-Modules
-******************************************************************/
-.profile{
-    width: 200px;
-    border: 6px solid white;
-    border-radius: 50%;
-}
-
-.socialRow > li{
-    padding: 0 15%;
-}
-
-
-.btnLi{
-    width: 80%;
-    border: 1px solid darkgray;
-    border-radius: 5px;
-    margin: 1% 0;
-    box-shadow: 10px 10px 10px #b6b4b486;
-}
-.btnLi:first-of-type{
-    background: linear-gradient(to right,#9f78ff,#8f94fb);
-    color: white;
-}
-.btnLi:first-of-type a{
-    color: white;
 }
 .headerBackground{
     background: linear-gradient(to right,#9f78ff,#8f94fb);
