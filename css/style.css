@@ -199,7 +199,7 @@ Modules
 }
 .rounded{
     border-radius: 15px;
-    padding: 2% 0;
+    padding: 2.5% 0;
     width: 700px;
 }
 .headerBackground{
@@ -217,6 +217,9 @@ Media queries
     .innerContainer{
         width: 100%;
         padding: 3% 2%;
+    }
+    .rounded{
+        padding: 10% 0;
     }
     
     footer{
